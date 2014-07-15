@@ -15,4 +15,5 @@
 @property (strong, nonatomic) CMMotionManager *motionManager;
 
 @property (assign) SystemSoundID faceSlapSound;
+
 @end
