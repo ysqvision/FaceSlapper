@@ -22,8 +22,6 @@
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)faceSlapURL, &_faceSlapSound);
     
 	__block BOOL readyToSlap = true;
-    
-    
     __block BOOL previousDirection = true;
     self.motionManager = [[CMMotionManager alloc] init];
     self.motionManager.accelerometerUpdateInterval = .2;
